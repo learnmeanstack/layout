@@ -253,6 +253,22 @@ display: flex;
     background-color: white;
     margin-top: 30px;
 }
+.image4{
+    border:1px solid gainsboro;
+    width:375px;
+   float:right;
+    border-radius: 5px;
+   /* height: 560px;*/
+    background-color: white;
+    margin-top: 30px;
+}
+.row1{
+    margin:2px;
+  border:1px solid white;
+    width:120px;
+    float:left;
+    height:120px;
+}
 .content{
     position: relative;
     text-align: justify;
