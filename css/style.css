@@ -209,13 +209,16 @@ border-bottom-right-radius: 5px;
     outline: none;
     border:none;
 }
-.image1, .image2{
+ .image1, .image2{
     background-color: white;
-    float:right;
+    display: inline-block;
 }
 .image3{
     margin-top: 30px;
-    margin-left:18px;
+}
+.image3, .image4{
+    background-color: white;
+    display: inline-block;
 }
 .box1{
     padding-top:0px;
@@ -247,7 +250,6 @@ display: flex;
 .image3{
     border:1px solid gainsboro;
     width:375px;
-   float:left;
     border-radius: 5px;
     /*height: 415px;*/
     background-color: white;
@@ -256,12 +258,14 @@ display: flex;
 .image4{
     border:1px solid gainsboro;
     width:375px;
-   float:right;
+   /*float:right;*/
     border-radius: 5px;
    /* height: 560px;*/
     background-color: white;
     margin-top: 30px;
+    margin-left: 70px;
 }
+
 .row1{
     margin:2px;
   border:1px solid white;
@@ -287,7 +291,7 @@ display: flex;
     left:5%
 }
 .image2{
-  margin-right: 70px;
+  margin-left: 70px;
 }
 .userface{
     width:70px;
