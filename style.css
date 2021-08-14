@@ -1,0 +1,66 @@
+body{
+    background-color: #6c1d4c;
+}
+.bg{
+    width:600px;
+    margin:auto;
+    height:auto;
+}
+.content{
+    border: 5px solid #7b345e;
+}
+.header{
+    color:#fff;
+}
+.subcontent{
+    background-color: #fff;
+    color:#5c5c5c;
+    
+}
+.date{
+    color:#333333;
+    text-align: end;
+    padding-right: 10px;
+}
+ul li{
+    color:#7b345e;
+    display:inline-block;
+    border-right:2px solid #7b345e;
+    padding-right: 5px;
+}
+ul li:last-child{
+    border-right: none;
+}
+.offers{
+    text-align: end;
+}
+.location{
+    border:1px solid #7b345e;
+    background-color: #7b345e;
+    color:#fff;
+    height:40px;
+    width:580px;
+}
+.city_details ul li {
+display: block;
+}
+.city_details ul li a{
+text-decoration: none;
+}
+.head{
+    background-color:#828c95;    
+    color:#fff;
+    width:580px;
+    height:40px;
+    border:1px solid #828c95;  
+} 
+.offer_details img{
+    float:left;
+}
+.footer ul li{
+    color:#fff;
+    border-right:2px solid #fff;
+}
+.copyrights{
+    color:#fff;
+}
